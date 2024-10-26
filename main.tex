@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper,sans]{moderncv} 
+
+% Выбор стиля и цвета
+\moderncvstyle{banking} % Стиль
+\moderncvcolor{blue} % Цвет
+
+% Установка шрифтов
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguages{english}
+
+% Установка шрифтов (замените на доступные шрифты)
+\setmainfont{Liberation Serif} % Основной шрифт
+\setsansfont{Liberation Sans}   % Шрифт без засечек
+\setmonofont{Liberation Mono}    % Моноширинный шрифт
+
+% Личные данные
+\firstname{Евгений}
+\familyname{Шульга}
+\title{QA инженер / Инженер по автоматизации тестирования} 
+\email{eugeneshulga03@gmail.com} % Укажите ваш email
+\social[linkedin]{-} % Укажите ваш LinkedIn, если есть
+\social[github]{https://github.com/NSODAT} % Укажите ваш GitHub, если есть
+
+\begin{document}
+	
+	\makecvtitle
+	
+	\section{Опыт работы}
+	\cventry{март 2023 -- сентябрь 2024}{QA инженер}{Compass корпоративный мессенджер}{}{}{Занимался тестированием и обеспечением качества программного обеспечения.}
+	\cventry{сентябрь 2024 -- по настоящее время}{Инженер по автоматизации тестирования}{Ozon Bank}{}{}{Разработка и поддержка автоматизированных тестов, работа с CI/CD.}
+	
+	\section{Образование}
+	\cventry{2021 -- 2026}{РГПУ им. А.И. Герцена}{Институт информационных технологий}{}{}{Специальность: Информационные технологии.}
+	
+	\section{Навыки}
+	\cvitem{Языки программирования}{Python}
+	\cvitem{Инструменты тестирования}{Selenium, pytest, postman, charles, postgresql}
+	\cvitem{Технологии}{CI/CD, Docker, Agile, Scrum}
+	
+	\section{Дополнительная информация}
+	\cvitem{Владение языками}{Русский (родной), Английский (средний уровень)}
+	
+\end{document}
